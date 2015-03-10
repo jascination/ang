@@ -1,0 +1,31 @@
+<div>
+    <button class="btn btn-default" ng-click="chooseCity('melb')">Melbourne</button>
+    <button class="btn btn-default" ng-click="chooseCity('syd')">Sydney</button>
+    <input placeholder="Filter that shit!" class="filterBrain" ng-model="contactFilter.domain">
+</div>
+
+
+
+<div class="contacts" ng-repeat="company in order | filter: contactFilter | limitTo:totalDisplayed " ng-show="chosen">
+    <h2>
+        <a ng-href="http://{{company.domain}}" target="_blank">{{company.domain}}</a>
+        &nbsp;
+        <span ng-show="company.mailCount > 0" class="label label-success">Mailing List (probably!)</span>
+    </h2>
+    <p><strong>{{company.eamCount}}</strong> people have been to <strong>{{company.cweCount}} CWE</strong></p>
+    <button class="btn btn-default" ng-click='companyShow[company.domain] = !companyShow[company.domain]'>View Attendees</button>
+    <div ng-show='companyShow[company.domain]'>
+
+        <div ng-repeat='(name, events) in company.emails' >
+            <h3>{{name}}</h3>
+            <ul>
+                <li ng-repeat='event in events track by $index'>
+                    
+                    <strong>{{event.date}}:</strong> {{event.cwe}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<button class="btn btn-default pull-right" style=" border-color: rgb(104,78,105);border-width: 2px;padding: 20px 40px;font-weight: bold;text-transform: uppercase;" ng-click="loadMore()">Load 20 more m8!</button>

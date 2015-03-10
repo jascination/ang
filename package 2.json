@@ -1,0 +1,9 @@
+{
+  "name": "Ranker",
+  "description": "A package using versioning best-practices",
+  "author": "JVG",
+  "dependencies": {
+    "cheerio": "latest",
+    "mongojs": "latest"
+  }
+}
