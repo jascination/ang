@@ -644,242 +644,13 @@ var sydDoms = [ 'bitsandpieces.net.au',
   'australianbusiness.com.au'
   ];
 
-var melDoms = [ 'yourvirtualteam.biz',
-  'mypoppet.com.au',
-  'marais.com.au',
-  'theark.com.au',
-  'smartalechatters.com.au',
-  'melbournalia.com.au',
-  'cumulusinc.com.au',
-  'agoodman.com.au',
-  'missfox.com.au',
-  'sbpcreativemedia.com.au',
-  'bound-media.com',
-  'lamodiste.com.au',
-  'circulus.com.au',
-  'core-projects.com.au',
-  'generalstandards.co',
-  'igniteonline.com.au',
-  'peazie.com',
-  'on9systems.com',
-  'christiankimber.com',
-  'redbridgeweb.com.au',
-  'startupaus.org',
-  'dohertydesignstudio.com.au',
-  'rakumba.com.au',
-  'thirststudios.com',
-  'ygap.com.au',
-  'carlahackett.com',
-  'sussan.com.au',
-  'spinspin.com',
-  'kwslegal.com.au',
-  'bwired.com.au',
-  'planbuycook.com.au',
-  'keepcup.com.au',
-  'cassette.com.au',
-  'lauralarkin.com',
-  'loandbehold.com.au',
-  'littlebookroom.com.au',
-  'squareweave.com.au',
-  'nkngallery.com',
-  'sunglasshut.com.au',
-  'kazari.com.au',
-  'parentpaperwork.com',
-  'annexproducts.com',
-  'vifm.org',
-  'claiming.com.au',
-  'thestudiodreams.com',
-  'askalicestationery.com',
-  'nicoletattersall.com',
-  'theschooloflife.com.au',
-  'crowdspot.com.au',
-  'auspost.com.au',
-  'arkade.com.au',
-  'promotem.com.au',
-  'thecitylane.com',
-  'bigkidlittlekid.net',
-  'realkandy.com',
-  'meetoo.com.au',
-  'retaildirections.com',
-  'madgwicks.com.au',
-  'soulwellness.com.au',
-  'brightstar.net.au',
-  'cornwalls.com.au',
-  'yearntolearn.com.au',
-  'tgst.com.au',
-  'bared.com.au',
-  'goodbrew.com.au',
-  'hussal.com.au',
-  'kordamentha.com',
-  'weaveweb.com.au',
-  'doingsomethinggood.com.au',
-  'laytoncreative.com.au',
-  'macaronsbyjosephine.com.au',
-  'rightbraininsights.com',
-  'wilkinsandkent.com',
-  'reclaimedmelbourne.com.au',
-  'themesolutions.com.au',
-  'thedollhousexoxo.com.au',
-  'actf.com.au',
-  'digitales.com.au',
-  'aitsl.edu.au',
-  'marrinergroup.com.au',
-  'grantsolutions.com.au',
-  'jennycraig.com.au',
-  'hooroo.com',
-  'indietech.com.au',
-  'boroondara.vic.gov.au',
-  'glamodesign.com.au',
-  'movingdata.com',
-  'nbnco.com.au',
-  'becomeinvested.com.au',
-  'lindenarts.org',
-  'getqsic.com',
-  'crukew.com.au',
-  'fanhubmedia.com',
-  'nichollstechnologies.com',
-  'mifi.com.au',
-  'australianstyleinstitute.com.au',
-  'shomi.me',
-  'desseinfurniture.com',
-  'littlebit.com',
-  'neendreams.com',
-  'planetinnovation.com.au',
-  'touchinteractive.com.au',
-  'niche.com.au',
-  'kevinyank.com',
-  'assembleprojects.com.au',
-  'skyzone.com.au',
-  'creativeentrepreneur.com.au',
-  'synekamarketing.com.au',
-  'graceinteriordesigns.com.au',
-  'wordandweb.com.au',
-  'surfacedigital.com.au',
-  'caremonkey.com',
-  'smilingmind.com.au',
-  'uxmastery.com',
-  'cybersechub.com.au',
-  'mcclellandgallery.com',
-  'computer.org',
-  'bookworld.com.au',
-  'shaolinpunk.net',
-  'worldskills.org.au',
-  'coles.com.au',
-  'vsbc.vic.gov.au',
-  'mahercorp.com.au',
-  'reactive.com',
-  'cushlawhiting.com.au',
-  'melbournegirl.com.au',
-  'nuffnang.com.au',
-  'beautyholicsanonymous.com',
-  'privatemedia.com.au',
-  'backpackerdeals.com',
-  'nintex.com',
-  'ewb.org.au',
-  'trinity.unimelb.edu.au',
-  'melhotornot.com',
-  'bushheritage.org.au',
-  'wordnerds.com.au',
-  'thefashionsection.com',
-  'carsales.com.au',
-  'yourlifechoices.com.au',
-  'ibac.vic.gov.au',
-  'seeklearning.com.au',
-  'chrisyong.com',
-  'mitchellake.com',
-  'cleanenergycouncil.org.au',
-  'futuremusicgroup.com.au',
-  'habbotstudios.com',
-  'intrepidtravel.com',
-  'wittner.com.au',
-  'redbubble.com',
-  'crazy4jeans.com',
-  'revolvercreative.com.au',
-  'brownpaper.com.au',
-  'museum.vic.gov.au',
-  'mattt.com.au',
-  'jardan.com.au',
-  'neiyo.com',
-  'chapelstreet.com.au',
-  'safariliving.com',
-  'cocoflip.com.au',
-  'madman.com.au',
-  'sportsgirl.com.au',
-  'sportsbet.com.au',
-  'woman.com.au',
-  'visualimpactwebdesign.com.au',
-  'blocksglobal.com',
-  'gardenbeet.com',
-  'lordcoconut.com',
-  'im-c.com.au',
-  'lilfordsmith.com.au',
-  'artselect.com.au',
-  'studiothick.com',
-  'thewebprincess.com',
-  'drummondgolf.com',
-  'pmi.com',
-  'wommau.com',
-  'truck.net.au',
-  'careerone.com.au',
-  'peterwilson.cc',
-  'usethings.com.au',
-  'justdigitalpeople.com.au',
-  'andatech.com.au',
-  'nextdigital.com',
-  'wearetank.com.au',
-  'tweettweetfashion.com.au',
-  'acm.org',
-  'yacvic.org.au',
-  'hitnet.com.au',
-  'ahavic.com.au',
-  'bodycode.com.au',
-  'butterfly.com.au',
-  'strongintosuperb.com.au',
-  'schiavello.com',
-  'typo.com.au',
-  'unisuper.com.au',
-  'slv.vic.gov.au',
-  'tonybianco.com.au',
-  'tinyme.com',
-  'dairyaustralia.com.au',
-  'net-effects.com.au',
-  'cornerpresents.com.au',
-  'jumponweb.com.au',
-  'vocation.com.au',
-  'allens.com.au',
-  'stagelabel.com',
-  'huntingwithpixels.com.au',
-  'memorypie.com',
-  'mrcyclingworld.com.au',
-  'creativesuburbs.com.au',
-  'suityourstyle.com.au',
-  'mykeldixon.com',
-  'builderbids.com.au',
-  'thewordoperator.com.au',
-  'connecteducation.com.au',
-  'forethought.com.au',
-  'mckinnonsc.vic.edu.au',
-  'rea-group.com',
-  'pozible.com',
-  'eyeslicesaustralia.com.au',
-  'fh.com.au',
-  'etsy.com',
-  'maddocks.com.au',
-  'shopolla.com.au',
-  'oracle.com',
-  'ettitude.com.au',
-  'oxfam.org.au',
-  'care.org.au',
-  'urbanwalkabout.com',
-  'servcorp.com.au',
-  'crosstivity.com',
-  'hairhousewarehouse.com.au',
-  'aesop.com',
-  'nzte.govt.nz' ]
+var melDoms = [ 
+  'futuremusicgroup.com.au']
 
+var twits = [];
 
 function lookUp(url, soc){
-	console.log("looking up " + url);
+//	console.log("looking up " + url);
 
 	request('http://' + url, function (error, response, html) {
 	
@@ -905,25 +676,34 @@ function lookUp(url, soc){
   	    	console.log(melDoms);
   	    }
       }else if(soc === 'twit'){
-        var twit = $("a[href*=twitter]").attr('href');
+        var twit = $("a[href*='twitter\.com']").attr('href');
         if(twit){
-          if(twit.substr(0,7) != "http://" || twit.substr(0,7) != "https:/" )
+          if((twit.indexOf('search?') == -1) && (twit.indexOf('intent/') == -1) && (twit.indexOf('share?') == -1) && (twit.indexOf('/home') == -1) ){
+            var j = twit.replaceBetween(0,twit.indexOf('twitter.com/'),"http://").replaceBetween(0,twit.indexOf('twitter.com/'),"https://")
+            var k = j.replace('#!/', '');
+            
+            request(k, function (error, response, html) {
+              if (!error && response.statusCode == 200) {
+                var d = cheerio.load(html);
 
-          var j = twit.replaceBetween(0,twit.indexOf('twitter.com/'),"http://")
-          console.log(j);
-          
-          request(j, function (error, response, html) {
-            if (!error && response.statusCode == 200) {
-              var d = cheerio.load(html);
+                var f = d('.ProfileNav-item.ProfileNav-item--followers span.ProfileNav-value').text().replace(',','');
 
-              var followers = d('.ProfileNav-item.ProfileNav-item--followers span.ProfileNav-value').text();
-              console.log(url + ": Twitter Followers:", followers);
-            }else{
-              console.log("ERR", error, response.statusCode);
-            }
-          });
+                if (f.indexOf('.') !== -1){
+                  var followers = f.replace('.','').replace('M','0000').replace('K', '00');
+                }else{
+                  var followers = f.replace('K', '000');
+                }
+
+                var tempObj = {domain: url, twitter: k, followers: parseInt(followers)};
+                twits.push(tempObj);
+                console.log(tempObj);
+              }else{
+                console.log("ERR with " + k, error, response.statusCode);
+              }
+            });
+          }
         }else{
-          console.log(url + " didn't have a twitter link");
+        //  console.log(url + " didn't have a twitter link");
         }
 
       }else if(soc === 'fb'){
@@ -972,4 +752,17 @@ function findTwit(list){
   }
 }
 
-findTwit(melDoms);
+ findTwit(melDoms);
+
+//
+//for (var j = 0; j<twits.length; j++){
+//  request(twits[j], function (error, response, html) {
+//    if (!error && response.statusCode == 200) {
+//      var d = cheerio.load(html);
+//      var followers = d('.ProfileNav-item.ProfileNav-item--followers span.ProfileNav-value').text();
+//      console.log(twits[j] + ": Twitter Followers:", followers);
+//    }else{
+//      console.log("ERR", error, response.statusCode);
+//    }
+//  });
+//}
